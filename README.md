@@ -1,24 +1,24 @@
-# desafio-meta-api
+# Desafio Meta (api)
 Desafio API
 
-## Necessário python3
-
-Para rodar a API:
+## Para instalar e rodar o projeto é mecessário python3 e o npm instalados.
+ 
+# Setup Inicial
 
 ## Virtual env
-1. Baixe o Repositório
+1. Baixe este Repositório
 2. Crie uma virtualenv na pasta da aplicação
 3. Ative a sua virtualenv
 
 ## Requirements
-Na raiz do projeto se encontra os arquivo requirements.txt. Instale utilizando o comando
+Na raiz do projeto se encontra o arquivo requirements.txt. Instale utilizando o comando
 `pip install -r requirements.txt`
 
 ## Banco de Dados
-Para esse Desafio foi utilizado um banco de dados para teste padrão do Django (SQLite), portanto não é preciso configurar nenhuma instancia local para rodar o projeto.
+Para esse Desafio foi utilizado um banco de dados teste padrão do Django (SQLite), portanto não é preciso configurar nenhuma instancia local para rodar o projeto.
 
 ## Migrations
-1. Entre na pasta apimeta e faça as migrações:
+1. Entre na pasta apimeta e crie as migrações:
 
 `python manage.py makemigrations
 python manage.py makemigrations api
@@ -30,7 +30,7 @@ python manage.py makemigrations frontend
 ## Backend
 Backend em Django 2.2.15
 
-1.Ainda na pasta apimeta, encontra-se o arquivo 'manage.py'. Execute o comando na pasta onde ele se encontra:
+1.Na pasta apimeta, encontra-se o arquivo 'manage.py'. Execute o comando na pasta onde ele se encontra:
 `python manage.py runserver 8000 `
 
 2. O Backend estará agora rodando na porta 8000. É possível testar a api manualmente na url
