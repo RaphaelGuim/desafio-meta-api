@@ -1,7 +1,7 @@
 # Desafio Meta (api)
 Desafio API
 
-## Para instalar e rodar o projeto é mecessário python3 e o npm instalados. 
+## Para instalar e rodar o projeto é necessário python3 e o npm instalados. 
 
 ## Virtual env
 1. Baixe este Repositório
@@ -13,10 +13,10 @@ Na raiz do projeto se encontra o arquivo requirements.txt. Instale utilizando o 
 `pip install -r requirements.txt`
 
 ## Banco de Dados
-Para esse Desafio foi utilizado um banco de dados teste padrão do Django (SQLite), portanto não é preciso configurar nenhuma instancia local para rodar o projeto.
+Para esse Desafio foi utilizado um banco de dados teste, padrão do Django (SQLite), portanto não é preciso configurar nenhuma instancia local para rodar o projeto.
 
 ## Migrations
-1. Entre na pasta apimeta e crie as migrações:
+1. Entre na pasta apimeta, onde se encontra-se o arquivo 'manage.py', e crie as migrações:
 
 - `python manage.py makemigrations`
 - `python manage.py makemigrations api`
@@ -28,10 +28,10 @@ Para esse Desafio foi utilizado um banco de dados teste padrão do Django (SQLit
 ## Backend
 Backend em Django 2.2.15
 
-1.Na pasta apimeta, encontra-se o arquivo 'manage.py'. Execute o comando na pasta onde ele se encontra:
+1.Na pasta apimeta Execute o comando:
 - `python manage.py runserver 8000 `
 
-2. O Backend estará agora rodando na porta 8000. É possível testar a api manualmente na url
+2. O Backend estará rodando na porta 8000. É possível testar a api manualmente na url
 - `http://localhost:8000/api/contatos/`
 
 ## Front-end
@@ -43,7 +43,7 @@ O Front End é uma aplicação em React que funciona em conjunto com o Backend e
 2. Para rodar o Front-End execute:
 - `npm run dev`
 
-3. Você pode acessar a aplicaço react pelo endereço: 
+3. Você pode acessar a aplicação react pelo endereço: 
 - `http://localhost:8000`
 
 
