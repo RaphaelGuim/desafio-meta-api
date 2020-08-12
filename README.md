@@ -1,9 +1,7 @@
 # Desafio Meta (api)
 Desafio API
 
-## Para instalar e rodar o projeto é mecessário python3 e o npm instalados.
- 
-# Setup Inicial
+## Para instalar e rodar o projeto é mecessário python3 e o npm instalados. 
 
 ## Virtual env
 1. Baixe este Repositório
