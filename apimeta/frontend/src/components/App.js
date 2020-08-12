@@ -46,7 +46,7 @@ class App extends Component {
             <nav aria-label="breadcrumb">
                     <ol className="breadcrumb">
                         <li className="breadcrumb-item"><a>Contatos API</a></li>
-                        <li className="breadcrumb-item"><a>List</a></li>
+                        <li className="breadcrumb-item"><a>{this.state.showList?"Lista de Usuários": "Usuário"}</a></li>
                         
                     </ol>
                 </nav>
