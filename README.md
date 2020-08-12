@@ -18,10 +18,10 @@ Para esse Desafio foi utilizado um banco de dados teste padrão do Django (SQLit
 ## Migrations
 1. Entre na pasta apimeta e crie as migrações:
 
-`python manage.py makemigrations
-python manage.py makemigrations api
-python manage.py makemigrations frontend
-`
+- `python manage.py makemigrations`
+- `python manage.py makemigrations api`
+- `python manage.py makemigrations frontend`
+
 2. Aplique as migrações com o comando:
 `python manage.py migrate `
 
@@ -29,21 +29,21 @@ python manage.py makemigrations frontend
 Backend em Django 2.2.15
 
 1.Na pasta apimeta, encontra-se o arquivo 'manage.py'. Execute o comando na pasta onde ele se encontra:
-`python manage.py runserver 8000 `
+- `python manage.py runserver 8000 `
 
 2. O Backend estará agora rodando na porta 8000. É possível testar a api manualmente na url
-`http://localhost:8000/api/contatos/`
+- `http://localhost:8000/api/contatos/`
 
 ## Front-end
 O Front End é uma aplicação em React que funciona em conjunto com o Backend em Django
 
 1. Navegue até a pasta frontend. Lá você irá encontra o arquivo package.json. Execute:
-`npm install`  
+- `npm install`  
 
 2. Para rodar o Front-End execute:
-`npm run dev`
+- `npm run dev`
 
 3. Você pode acessar a aplicaço react pelo endereço: 
-`http://localhost:8000`
+- `http://localhost:8000`
 
 
